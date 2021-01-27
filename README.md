@@ -1,6 +1,9 @@
 
 invoices
 ========
+Logic for creating and editing invoices
+
+![Build Status](https://mindpowered.dev/assets/images/github-badges/build-passing.svg)
 
 Contents
 ========
@@ -9,6 +12,7 @@ Contents
 * [Licensing](#licensing)
 * [Requirements](#requirements)
 * [Installation](#installation)
+* [Usage](#usage)
 * [Support](#support)
 
 # Source Code and Documentation
@@ -16,9 +20,7 @@ Contents
 - Documentation: [https://mindpowered.github.io/invoices-cpp](https://mindpowered.github.io/invoices-cpp)
 
 # Licensing
-This package is dual-licensed under the MIT and CPAL-1.0 licenses.
-
-To obtain a version licensed under the MIT License, follow the instructions at [get a license][purchase].
+To obtain a version of this package under the MIT License, follow the instructions to [get a license][purchase]. The MIT License has no restrictions on commercial use and permits reuse within proprietary software.
 
 # Requirements
 - Bazel - https://www.bazel.build/
@@ -64,16 +66,25 @@ Reference dependency in BUILD file ...
 ```
 
 
+# Usage
+```cpp
+#include <mindpowered/invoices/Invoices.h>
+
+auto inv = new Invoices();
+inv->Create("354", "2153", "2021-02-01", "2021-03-01", "Thanks for the business!");
+delete inv;
+```
+
+
 # Support
 We are here to support using this package. If it doesn't do what you're looking for, isn't working, or you just need help, please [Contact us][contact].
 
 There is also a public [Issue Tracker][bugs] available for this package.
-  
-  
-![Documentation - CPP README - invoices](https://www.google-analytics.com/collect?v=1&tid=UA-178768904-1&cid=555&aip=1&t=event&ec=Documentation&ea=CPP+README&el=invoices)
+
 
 
 [bugs]: https://github.com/mindpowered/invoices-cpp/issues
 [contact]: https://mindpowered.dev/support.html?ref=invoices-cpp/
+[docs]: https://mindpowered.github.io/invoices-cpp/
 [licensing]: https://mindpowered.dev/?ref=invoices-cpp
-[purchase]: https://mindpowered.dev/purchase/invoices-cpp
+[purchase]: https://mindpowered.dev/purchase/
