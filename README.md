@@ -1,7 +1,7 @@
 
 invoices
 ========
-Logic for creating and editing invoices
+Create, edit, and track invoices as part of your app
 
 ![Build Status](https://mindpowered.dev/assets/images/github-badges/build-passing.svg)
 
@@ -10,6 +10,7 @@ Contents
 
 * [Source Code and Documentation](#source-code-and-documentation)
 * [Licensing](#licensing)
+* [About](#about)
 * [Requirements](#requirements)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -21,6 +22,21 @@ Contents
 
 # Licensing
 To obtain a version of this package under the MIT License, follow the instructions to [get a license][purchase]. The MIT License has no restrictions on commercial use and permits reuse within proprietary software.
+
+# About
+An invoice lists the quantities and costs of the products or services provided by a seller to a buyer. The top of the invoice usually includes the:
+- contact information of the seller
+- contact information of the buyer
+- date of the invoice
+
+In the middle of the invoice is a list of products or services. A line item refers to a line from this list. The line item describes the product or service, quantity, rate, price, and taxes.
+
+At the bottom of the invoice is a summary which usually includes:
+- subtotal (before tax)
+- total (with tax) amount
+- payment terms.
+
+This package aims to provide the tools to create and edit invoices. This is useful for sending by the seller or receiving by the buyer.
 
 # Requirements
 - Bazel - https://www.bazel.build/
