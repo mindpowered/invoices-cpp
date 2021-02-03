@@ -9,19 +9,16 @@ Contents
 ========
 
 * [Source Code and Documentation](#source-code-and-documentation)
-* [Licensing](#licensing)
 * [About](#about)
 * [Requirements](#requirements)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Support](#support)
+* [Licensing](#licensing)
 
 # Source Code and Documentation
 - Source Code: [https://github.com/mindpowered/invoices-cpp](https://github.com/mindpowered/invoices-cpp)
 - Documentation: [https://mindpowered.github.io/invoices-cpp](https://mindpowered.github.io/invoices-cpp)
-
-# Licensing
-To obtain a version of this package under the MIT License, follow the instructions to [get a license][purchase]. The MIT License has no restrictions on commercial use and permits reuse within proprietary software.
 
 # About
 An invoice lists the quantities and costs of the products or services provided by a seller to a buyer. The top of the invoice usually includes the:
@@ -97,10 +94,13 @@ We are here to support using this package. If it doesn't do what you're looking 
 
 There is also a public [Issue Tracker][bugs] available for this package.
 
+# Licensing
+This package is released under the MIT License.
+
 
 
 [bugs]: https://github.com/mindpowered/invoices-cpp/issues
-[contact]: https://mindpowered.dev/support.html?ref=invoices-cpp/
+[contact]: https://mindpowered.dev/support/?ref=invoices-cpp/
 [docs]: https://mindpowered.github.io/invoices-cpp/
 [licensing]: https://mindpowered.dev/?ref=invoices-cpp
 [purchase]: https://mindpowered.dev/purchase/
